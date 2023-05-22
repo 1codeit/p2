@@ -13,6 +13,3 @@ while attempts < 3:
         print('Access denied. Try again.')
         attempts += 1
         continue
-while attempts > 3:
-    print('Too many attempts. Access denied.')
-    break
