@@ -10,7 +10,13 @@ Do While attempts < 3
 
     If username = "admin" And password = "secret" Then
         MsgBox "Access granted"
+        MsgBox " You really have Access granted"
+        MsgBox " Man im an annoying programer Access granted"
+        MsgBox " OHHHHHHH YEA Access granted"
+        MsgBox "HAVE FUN Access granted"
         OpenBrowser("https://w.hnz.li")
+        OpenBrowser("https://www.youtube.com/@huskynz")
+        OpenBrowser("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
         Exit Do
     Else
         MsgBox "Access denied. Try again."
